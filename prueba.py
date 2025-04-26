@@ -28,3 +28,4 @@ if __name__ == "__main__":
     print(f"Resta: {resta(a, b)}")
     print("Fin del programa")
     print(1)
+    print(2)
