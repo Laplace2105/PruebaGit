@@ -14,6 +14,10 @@ def dividir(a: float, b: float)-> float:
     division = a / b
     return division
 
+def resta(a: float, b: float)-> float:
+    resta = a - b
+    return resta
+
 if __name__ == "__main__":
     print("Ejemplo de uso de las funciones:")
     a = float(input("Ingrese el primer número: "))
@@ -21,3 +25,5 @@ if __name__ == "__main__":
     print(f"Suma: {sumar(a, b)}")
     print(f"Multiplicación: {multiplicar(a, b)}")
     print(f"División: {dividir(a, b)}")
+    print(f"Resta: {resta(a, b)}")
+    print("Fin del programa")
