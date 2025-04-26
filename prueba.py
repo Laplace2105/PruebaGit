@@ -27,3 +27,4 @@ if __name__ == "__main__":
     print(f"División: {dividir(a, b)}")
     print(f"Resta: {resta(a, b)}")
     print("Fin del programa")
+    print(1)
